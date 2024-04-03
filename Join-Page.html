@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join-Page</title>
+    <link rel="stylesheet" href=".\Join-Page.css">
+</head>
+<body>
+<div class="entire">
+    <form>
+        <div class="main-title">회원가입</div>
+        <span class="main-font">
+        <!-- 성명, 학년 -->
+      
+        <div class="name-grade">
+            <div class="name">성명</div>
+            <div class="grade">학년</div>
+        </div>
+
+        <!-- 성명, 학년 박스 -->
+        <div class="input-name-grade">
+        <input class="name-box" type="text"placeholder="성명" required maxlength="3">
+
+        <select class="grade-box">
+            <option>1학년</option>
+            <option>2학년</option>  
+        </select>
+
+        </div>
+            
+        
+            
+        <!-- 이메일 -->
+        <div class="email">이메일</div>
+        <input class="email-box" type="email" placeholder="register@example.com" required>
+            
+        <!-- 비밀번호 -->
+        <div class="password">비밀번호</div>
+        <input class="password-box" type="password" placeholder="비밀번호" required>
+
+        <!-- 주소 -->
+        <div class="address">주소</div>
+        <input class="address-box" type="text" placeholder="부산광역시 부산진구 양지로 54" required>
+
+        <!-- 연락처 -->
+        <div class="contact">연락처</div>
+        <input class="contact-box" type="text" placeholder="010-1234-5678" required>
+
+        <!-- 생년월일, 학적상태 -->
+        <div class="birth-academic">
+           <div class="birth-date">생년월일</div>
+           <div class="academic-state">학적상태</div>
+        </div>
+        
+        <!-- 생년월일, 학적상태 박스 -->
+        <div class="birth-academic-box">
+            <input class="birth-date-box" type="date" min="1980-01-01" max="2024-12-31" required>
+            <div class="academic-state-box">
+                <input type="radio" name="academic" value="students" required>재학생
+                <input class="radio-1" type="radio" name="academic" value="returningstudent" required>복학생
+                <input class="radio-2" type="radio" name="academic" value="graduate" required>졸업생
+            </div>
+        </div>
+
+        <!-- 구분선 -->
+        <hr>
+
+        <!-- 개인정보 수집 -->
+        <input class="agreement" type="checkbox" required> 개인정보 수집 및 이용에 동의합니다.
+        <br>
+        <input class="complete" type="submit" value="가입 완료">
+        </span>
+    </form>
+</div>
+</body>
+</html>

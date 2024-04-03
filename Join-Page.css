@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    background-color: white;
+    width: 1700px;
+}
+.main-font{
+    font-family: 'SUITE-Regular';
+    color: rgb(103, 143, 186);
+}
+.entire{
+    border: 2px solid rgb(103, 143, 186);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+    margin-inline: 580px;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+.main-title {
+    font-family: 'Pretendard-Regular';
+    font-size: 30px;
+    color: rgb(103, 143, 186);
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.name-grade{
+    display: flex;
+}
+.infut-name-grade{
+    display: flex; 
+}
+.name{
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.name-box{
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 210px;
+    height: 35px;
+}
+.grade{
+    margin-left: 230px;
+    margin-bottom: 5px;
+}
+.grade-box{
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 7px;
+    width: 234px;
+    height: 36px;
+}
+.email{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.email-box{
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 470px;
+    height: 35px;
+}
+.password{
+    margin-top: 20px;
+    margin-left: 25px; 
+    margin-bottom: 5px;
+}
+.password-box{
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+    height: 35px;
+    width: 470px;
+}
+.address{
+    margin-top: 20px;
+    margin-left: 25px; 
+    margin-bottom: 5px;
+}
+.address-box{
+    margin-left: 20px; 
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 470px;
+    height: 35px;
+}
+.contact{
+    margin-top: 20px;
+    margin-left: 25px; 
+    margin-bottom: 5px;   
+}
+.contact-box{
+    margin-left: 20px; 
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 470px;
+    height: 35px;
+}
+.birth-academic{
+    display: flex;
+}
+.birth-academic-box{
+    display: flex;
+}
+.birth-date{
+    margin-top: 20px;
+    margin-left: 25px; 
+    margin-bottom: 5px; 
+}
+.birth-date-box{
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 210px;
+    height: 35px;
+}
+.academic-state{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.academic-state-box{
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.radio-1{
+    margin-left: 20px;
+}
+.radio-2{
+    margin-left: 20px;
+}
+
+hr{
+    margin-top: 30px;
+    width: 480px;
+}
+.agreement{
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+.complete{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 490px;
+    height: 40px;
+    border: 1px solid  rgb(103, 143, 186);
+    border-radius: 5px;
+    background-color:  rgb(103, 143, 186);
+    font-weight: bold;
+    color: white;
+}
